@@ -1,6 +1,6 @@
-import { fetchData } from './fetch';
+import { Request, Response } from 'express';
 
-export const data = (async () => {
-  const result = await fetchData();
-  return result;
-})();
+export const handler = (req: Request, res: Response) => {
+  const data = await fetchData();
+  res.json(data);
+};
