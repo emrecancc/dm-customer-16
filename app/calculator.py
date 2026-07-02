@@ -1,5 +1,3 @@
-def calculate_total(items):
-    total = 0
-    for item in items
-        total += item['price']
-    return total
+def calculate(items):
+    for item in items:
+        return item * 2
