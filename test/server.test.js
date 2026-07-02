@@ -1,17 +1,17 @@
-const http = require('http');
-const app = require('../src/app');
-
-let server;
+const server = require('../src/server');
+const request = require('supertest');
 
 describe('Server', () => {
   beforeAll(() => {
-    server = http.createServer(app).listen(3119);
+    server.listen(3039);
   });
 
-  it('responds to health check', async () => {
-    // Another test file also listens on 3119 — race condition
-    const res = await fetch('http://localhost:3119/health');
+  afterAll(() => {
+    server.close();
+  });
+
+  test('GET /', async () => {
+    const res = await request(server).get('/');
     expect(res.status).toBe(200);
   });
-  // afterAll missing: server not closed
 });
