@@ -6,7 +6,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true}); require('fs').copyFileSync('src/index.js','dist/app.js')\""
   },
   "devDependencies": {
     "dependencies": "*",
