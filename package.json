@@ -11,6 +11,7 @@
   "devDependencies": {
     "dependencies": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "preinstall": "*"
   }
 }
