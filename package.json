@@ -1,11 +1,16 @@
 {
-  "name": "astro-blog",
+  "name": "dm-customer-16",
   "version": "1.0.0",
-  "dependencies": {
-    "react-query": "latest"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "*"
   }
 }
