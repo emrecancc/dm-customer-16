@@ -1,13 +1,18 @@
 {
   "name": "astro-blog",
-  "version": "1.0.0",
-  "engines": {
-    "node": ">=16.0.0"
-  },
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "jest",
-    "start": "node dist/index.js",
-    "build": "tsc"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "dependencies": {}
+  "dependencies": {
+    "astro": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0",
+    "eslint": "^8.0.0",
+    "concurrently": "*"
+  }
 }
