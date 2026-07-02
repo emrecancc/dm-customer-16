@@ -9,9 +9,5 @@
     "start": "node dist/index.js",
     "build": "tsc"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "0.103.0": "*",
-    "http2": "*"
-  }
+  "dependencies": {}
 }
