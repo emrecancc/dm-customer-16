@@ -11,6 +11,8 @@
   "devDependencies": {
     "dependencies": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "0.103.0": "*",
+    "http2": "*"
   }
 }
