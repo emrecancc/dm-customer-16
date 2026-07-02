@@ -1,18 +1,13 @@
 {
-  "name": "dm-customer-16",
+  "name": "astro-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "engines": {
+    "node": ">=16.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "jest": "*",
-    "0.103.0": "*",
-    "http2": "*"
-  }
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {}
 }
