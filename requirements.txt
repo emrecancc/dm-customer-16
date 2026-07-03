@@ -1,1 +1,1 @@
-setuptools>=65.0
+tortoise_orm
