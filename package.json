@@ -1,10 +1,10 @@
 {
   "name": "dm-customer-16",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js"
+    "prestart": "cp server.js server.js.bak",
+    "start": "node server.js.bak"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {}
 }
