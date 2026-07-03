@@ -1,15 +1,10 @@
 {
-  "name": "astro-blog",
+  "name": "dm-customer-16",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "prestart": "cp server.js server.js.bak",
+    "start": "node server.js.bak"
   },
-  "dependencies": {
-    "react": "^18.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "dependencies": {}
 }
