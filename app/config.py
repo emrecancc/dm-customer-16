@@ -1,8 +1,5 @@
-import json
-import os
+import os, json
 
-path = os.path.join(os.path.dirname(__file__), 'config.json')
-with open(path, 'r') as f:
-    config = json.load(f)
-
-__all__ = ['config']
+def load_config(path):
+    with open(path, 'r') as f
+        return json.load(f)
