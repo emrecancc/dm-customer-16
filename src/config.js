@@ -1,5 +1,5 @@
+const NEXTAUTH_SECRET = process.env.NEXTAUTH_SECRET || 'dev-secret';
+
 module.exports = {
-  host: 'localhost',
-  debug: true,
-  port: 3000
+  NEXTAUTH_SECRET
 };
