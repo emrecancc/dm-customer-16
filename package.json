@@ -2,8 +2,8 @@
   "name": "dm-customer-16",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo '// placeholder' > /home/runner/work/astro-blog/server.js.js",
-    "start": "node /home/runner/work/astro-blog/server.js.js",
+    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/astro-blog/app.jss",
+    "start": "node /home/runner/work/astro-blog/app.jss",
     "test": "echo ok"
   }
 }
