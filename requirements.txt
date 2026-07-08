@@ -1,1 +1,5 @@
 setuptools>=65.0
+wheel>=0.37
+# intentionally missing: fastapi
+django
+pytest
