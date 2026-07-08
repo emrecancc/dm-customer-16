@@ -1,11 +1,12 @@
 {
-  "name": "dm-customer-16",
+  "name": "astro-blog",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo 'ok'",
-    "build": "echo 'build ok'",
-    "start": "node index.js"
+    "test": "jest",
+    "lint": "eslint .",
+    "start": "node src/index.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.18.0"
+  }
 }
